@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <conio.h>
 
 using namespace std;
 
@@ -165,4 +166,5 @@ int main()
 			cout << "Invalid input, Please Enter valid character ('R' or 'S'). " ;
 		}
 	} while (c != 'R' && c != 'S');
+	_getch();
 }
